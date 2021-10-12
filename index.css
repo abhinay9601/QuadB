@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.top{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: black;
+  border: 1px solid gray;
+  height: 4vh;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+#text-small{
+  font-size: small;
+}
+.flex{
+  display: flex;
+  justify-content:space-around;
+  width: 40vw;
+  display: flex;
+  justify-content:space-around;
+}
+a{
+color: white;
+text-decoration: none;
+}
+.flexa{
+  display: flex;
+  justify-content:space-around;
+  width: 10vw;
+}
+.select{
+  color: #fff;
+  background: #000;
+}
+.gradient
+{
+  
+  background-image: linear-gradient(
+    90deg, rgb(48, 35, 174), rgb(200, 109, 215)) !important;
+}
+.head-main{
+  background: #000;
+}
+.time{
+  font-size: 3.2rem;
+  text-align: center;
+  color: white;
+}
+.temp{
+ margin-left: auto;
+ margin-right: auto;
+  color: #fff;
+  display: flex;
+  width: 12vw;
+  justify-content: space-around;
+}
+.home{
+  color: #fff;
+  background: rgb(189, 38, 38);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+}
+main{
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+.total{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 16vh;
+}
+.image{
+  float: left;
+  margin-right: 6px;
+}
+.btn{
+ width: 100px;
+ margin-left: auto;
+ margin-right: auto;
+}
+button{
+background-color: rgb(223, 215, 215);
+width:30px;
+border: none;
+}
+.latest{
+  display: flex;
+  justify-content:space-between;
+}
+
+.right{
+  margin-left: 20px;
+}
+.footer{
+ margin-top: 20px;
+ border-top: 4px solid red;
+ background-color: rgba(5, 5, 5, 0.808);
+ padding: 8px;
+ padding-left: 4vw;
+ padding-right : 4vw;
+ color: rgba(255, 255, 255, 0.644);
+ display: flex;
+ justify-content: space-between;
+}
+h5{
+  display: inline-block;
+}
+.lefty{
+  width: 50%;
+}
+.righty{
+  width: 50%;
+  margin-left: 8px;
+}
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.element{
+  margin-top: 8px;
+ 
+}
+.end{
+  background-color: rgba(5, 5, 5, 0.808);
+color: white;
+font-size: small;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
